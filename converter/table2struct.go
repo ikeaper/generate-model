@@ -2,6 +2,7 @@ package converter
 
 import "fmt"
 
-func Myp() string {
-	fmt.Println("my module print")
+
+func Myp() string{
+	return "my converter module string"
 }
